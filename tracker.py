@@ -4,23 +4,21 @@
 
 # Banners and Title
 print("=" * 40)
-print("    EXPENSE TRACKER")
-print("    Your personal finance assistant")
+print("\t   EXPENSE TRACKER")
+print("\tKnow where your money goes.")
 print("=" * 40)
 
-# Welcome Message
-print()
-print("Welcome to Expense Tracker! Manage your budget with ease.")
-print()
+# Welcome Message (single print with newline characters)
+print("\nWelcome! This is your personal expense tracker.\n")
 
 # Main Menu
 print("MAIN MENU")
-print("1. Add an expense       (coming soon)")
-print("2. View all expenses    (coming soon)")
-print("3. Show total spent     (coming soon)")
-print("4. Exit                 (coming soon)")
+print("\t[1] Add an expense\t\t(coming soon)")
+print("\t[2] View all expenses\t\t(coming soon)")
+print("\t[3] Show total spent\t\t(coming soon)")
+print("\t[4] Exit\t\t\t(coming soon)\n")
 
 # Footer
 print("-" * 40)
-print("Made by: Charles Quiocho | Installment 1")
+print("Made by: Charles Quiocho  |  Installment 1")
 print("=" * 40)
